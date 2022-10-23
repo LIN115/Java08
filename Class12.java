@@ -3,6 +3,17 @@ class CWin {
 	int height;
 	String name;
 
+	void setWindows(int w, int h) {
+		width = w;
+		height = h;
+	}
+
+	void setWindows(int w, int h, String s) {
+		width = w;
+		height = h;
+		name = s;
+	}
+
 	void setW(int w) {
 		width = w;
 	}
